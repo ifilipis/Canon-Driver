@@ -1,0 +1,1 @@
+Extract EDSDK archive contents here. Make this folder the root of EDSDK.
