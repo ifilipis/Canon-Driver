@@ -120,7 +120,7 @@
       <CallingConvention>StdCall</CallingConvention>
     </ClCompile>
     <Link>
-      <AdditionalDependencies>..\EDSDK\Windows\EDSDK\Library\EDSDK.lib;..\directshow\baseclasses\Release\strmbase.lib;winmm.lib;msvcrtd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>..\EDSDK\Windows\EDSDK\Library\EDSDK.lib;..\directshow\baseclasses\Release\strmbase.lib;winmm.lib;msvcrt.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <AdditionalLibraryDirectories>
       </AdditionalLibraryDirectories>
       <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
@@ -173,7 +173,7 @@
       <CallingConvention>StdCall</CallingConvention>
     </ClCompile>
     <Link>
-      <AdditionalDependencies>..\EDSDK\Windows\EDSDK_64\Library\EDSDK.lib;..\directshow\baseclasses\x64\Release\strmbase.lib;winmm.lib;msvcrtd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>..\EDSDK\Windows\EDSDK_64\Library\EDSDK.lib;..\directshow\baseclasses\x64\Release\strmbase.lib;winmm.lib;msvcrt.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <AdditionalLibraryDirectories>..\directshow\baseclasses\x64\Release\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
       <ModuleDefinitionFile>Filters.def</ModuleDefinitionFile>
